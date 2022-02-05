@@ -1,0 +1,13 @@
+
+//    async await определение и пример?
+// это асинхронная функция, когда асиннхроный код надо ждать
+// Работаем с методами async await 
+// async function get (url){  отправляем запрос 
+//     const res = await fetch (url) ожидаем запрос 
+//     // и если не ок
+//     if(!res.ok)
+//     // и создаем ошибку
+//     throw new Error ('connot fatch $(url), storis: $(res.status)')
+//     // и ждем ответа
+//     return await res.json()  
+// }
