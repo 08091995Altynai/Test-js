@@ -1,0 +1,12 @@
+//    Что такое fetch и написать пример?
+// fetch принимает новый Promise и работает с API,а вся суть Promise заключается в featch. 
+// простыми словами метод  fetch() сетевые запросы которые подгружают новую информацию.
+// fetch принимает url и options
+// fetch("https://httpbin.org/post", {   здесь записываем url
+//   method: "POST",     в примере пишем  пост запрос
+//   headers: {
+//     Accept: "application/json",  то что она принимает
+//     "Content-Type": "application/json; charset=UTF-8",  тип контента 
+//   },
+//   body: JSON.stringify({ k: "v" }), переводим в строку
+// });
